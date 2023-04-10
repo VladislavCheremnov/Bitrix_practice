@@ -99,7 +99,7 @@
     </div>
 </div>
 <!-- header -->
-<div class="blog">
-
-    <div class="blog-content">
-        <div class="blog-content-left">
+<div class="container">
+    <div class="blog">
+        <div class="blog-content">
+            <div class="blog-content-left">
