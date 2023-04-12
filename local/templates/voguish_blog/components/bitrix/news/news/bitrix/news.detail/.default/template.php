@@ -37,7 +37,7 @@ $this->setFrameMode(true);
 		<?if($arParams["DISPLAY_TOP_PAGER"]):?><?=$arResult["NAV_STRING"]?><br /><?endif;?>
 		<?echo $arResult["NAV_TEXT"];?>
 		<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?><br /><?=$arResult["NAV_STRING"]?><?endif;?>
-	<?elseif($arResult["DETAIL_TEXT"] <> ''):?>
+	<?elseif(strlen($arResult["DETAIL_TEXT"])>0):?>
 		<?echo $arResult["DETAIL_TEXT"];?>
 	<?else:?>
 		<?echo $arResult["PREVIEW_TEXT"];?>

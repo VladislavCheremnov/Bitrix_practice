@@ -11,10 +11,11 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+//debug($arResult);
 ?>
 
-<div class="blog-articals">
-<?php foreach($arResult["ITEMS"] as $arItem):?>
+<div class="blog-aricals">
+<?php foreach($arResult["ITEMS"] as $arItem): ?>
     <div class="blog-artical">
         <div class="blog-artical-info">
             <div class="blog-artical-info-img">
@@ -22,7 +23,7 @@ $this->setFrameMode(true);
             </div>
             <div class="blog-artical-info-head">
                 <h2><a href="<?=$arItem['DETAIL_PAGE_URL'];?>"><?=$arItem['NAME'];?></a></h2>
-                <h6>Posted on, <?=$arItem['ACTIVE_FROM'];?></a></h6>
+                <h6>Posted on, <?=$arItem['ACTIVE_FROM'];?></h6>
 
             </div>
             <div class="blog-artical-info-text">
@@ -41,10 +42,7 @@ $this->setFrameMode(true);
         <div class="clearfix"> </div>
     </div>
 <?php endforeach; ?>
-
-<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
-   <br /><?=$arResult["NAV_STRING"]?>
-<?endif;?>
 </div>
-
-
+<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
+    <br /><?=$arResult["NAV_STRING"]?>
+<?endif;?>
