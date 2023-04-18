@@ -45,12 +45,12 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php"); ?>
 <div class="nam-matis">
                 <div class="nam-matis-top">
                     <div class="col-md-6 nam-matis-1">
-                        <a href="single.html"><img src="<?=DEFAULT_TEMPLATE_PATH?>/images/5.jpg" class="img-responsive" alt=""></a>
+                        <a href="single.html"><img src="<?=SITE_TEMPLATE_PATH?>/images/5.jpg" class="img-responsive" alt=""></a>
                         <h3><a href="single.html">Suspendisse a pellentesque dui</a></h3>
                         <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
                     </div>
                     <div class="col-md-6 nam-matis-1">
-                        <a href=""><img src="<?=DEFAULT_TEMPLATE_PATH?>/images/6.jpg" class="img-responsive" alt=""></a>
+                        <a href=""><img src="<?=SITE_TEMPLATE_PATH?>/images/6.jpg" class="img-responsive" alt=""></a>
                         <h3><a href="">Suspendisse a pellentesque dui</a></h3>
                         <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
                     </div>
@@ -58,12 +58,12 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php"); ?>
                 </div>
                 <div class="nam-matis-top">
                     <div class="col-md-6 nam-matis-1">
-                        <a href="single.html"><img src="<?=DEFAULT_TEMPLATE_PATH?>/images/4.jpg" class="img-responsive" alt=""></a>
+                        <a href="single.html"><img src="<?=SITE_TEMPLATE_PATH?>/images/4.jpg" class="img-responsive" alt=""></a>
                         <h3><a href="single.html">Suspendisse a pellentesque dui</a></h3>
                         <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
                     </div>
                     <div class="col-md-6 nam-matis-1">
-                        <a href="single.html"><img src="<?=DEFAULT_TEMPLATE_PATH?>/images/1.jpg" class="img-responsive" alt=""></a>
+                        <a href="single.html"><img src="<?=SITE_TEMPLATE_PATH?>/images/1.jpg" class="img-responsive" alt=""></a>
                         <h3><a href="single.html">Suspendisse a pellentesque dui</a></h3>
                         <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
                     </div>
